@@ -21,13 +21,13 @@ export WEBCAT_PORT=3939
 
 ```
 function _webcat() {
-	gonetcat localhost $WEBCAT_PORT
+  gonetcat localhost $WEBCAT_PORT
 }
 function webcat() {
-	# screen clear and clear font
-	gocat -prefix='\x1b[2J\x1b[1;1H\033[0m' -suffix='# END\n' | _webcat "$@"
+  # screen clear and clear font
+  gocat -prefix='\x1b[2J\x1b[1;1H\033[0m' -suffix='# END\n' | _webcat "$@"
 }
 function webcatd() {
-	gotty $(which gechota) -p=$WEBCAT_PORT &
+  gotty $(which gechota) -p=$WEBCAT_PORT &
 }
 ```
