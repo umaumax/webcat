@@ -1,6 +1,6 @@
 # webcat
 
-## reacquire
+## requires
 * [umaumax/gonetcat]( https://github.com/umaumax/gonetcat )
 * [umaumax/gocat]( https://github.com/umaumax/gocat )
 * [umaumax/gechota]( https://github.com/umaumax/gechota )
