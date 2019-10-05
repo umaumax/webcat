@@ -1,5 +1,7 @@
 # webcat
 
+`webcat`コマンドにパイプ入力してブラウザに表示する
+
 ## requires
 * [umaumax/gonetcat]( https://github.com/umaumax/gonetcat )
 * [umaumax/gocat]( https://github.com/umaumax/gocat )
